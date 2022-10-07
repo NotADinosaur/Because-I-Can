@@ -1,0 +1,30 @@
+/* Rounded Context Menu */
+.menu-1QACrS, .colorDefault-CDqZdO { 
+    border-radius: 15px; 
+}
+
+/* Mention Colour */
+#app-mount .mentioned-Tre-dv:before {
+	background-color:#6580CF;
+	padding: 1px; 
+	}
+#app-mount .mentioned-Tre-dv {
+	background-color: #6580CF25;
+	}
+
+/* Change Reactions */
+.reaction-3vwAF2 {
+  border-radius: .25rem;
+  border: none;
+}
+.reaction-3vwAF2:hover .reactionCount-26U4As {
+  color: var(--interactive-active) !important;
+}
+
+.reaction-3vwAF2:hover {
+  background-color: var(--background-modifier-selected);
+}
+
+.reaction-3vwAF2.reactionMe-1PwQAc:hover {
+  background-color: var(--brand-experiment-40a);
+}
