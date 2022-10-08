@@ -7,16 +7,18 @@
 #app-mount .mentioned-Tre-dv:before {
 	background-color:#6580CF;
 	padding: 1px; 
-	}
+}
+
 #app-mount .mentioned-Tre-dv {
 	background-color: #6580CF25;
-	}
+}
 
 /* Change Reactions */
 .reaction-3vwAF2 {
   border-radius: .25rem;
   border: none;
 }
+
 .reaction-3vwAF2:hover .reactionCount-26U4As {
   color: var(--interactive-active) !important;
 }
@@ -32,4 +34,40 @@
 /* Show Full About Me */
 [class*="lineClamp2Plus-"] {
     -webkit-line-clamp: unset !important;
+}
+
+/* Rainbow Titlebar */
+.wordmark-2u86JB { 
+    animation: chromaYeet 20s linear infinite !important;
+}
+
+@keyframes chromaYeet {
+    0% {
+        color: #ff0000;
+    }
+
+    14% {
+        color: #ff8E00;
+    }
+
+    28% {
+        color: #ffff00;
+    }
+
+    43% {
+        color: #008e00;
+    }
+
+    57% {
+        color: #004dff;
+    }
+    71% {
+        color: #990fae;
+    }
+    86% {
+        color: #ff69b4;
+    }
+    100% {
+        color: #ff0000;
+    }
 }
