@@ -28,3 +28,8 @@
 .reaction-3vwAF2.reactionMe-1PwQAc:hover {
   background-color: var(--brand-experiment-40a);
 }
+
+/* Show Full About Me */
+[class*="lineClamp2Plus-"] {
+    -webkit-line-clamp: unset !important;
+}
