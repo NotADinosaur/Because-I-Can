@@ -1,3 +1,36 @@
+/* easier to see black emojis in dark mode */
+@import url("https://app.staticsave.com/asportnoy/emoji-border.css");
+
+/* undo the "mosaic" image layout */
+[class*="ByOneGrid-"]:not([class*="OneGridSingle-"]),
+[class*="ByTwoGrid-"],
+[class*="ByThreeGrid-"] {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+}
+
+[class*="ByOneGrid-"]:not([class*="OneGridSingle-"]) [class*="lazyImg"],
+[class*="ByTwoGrid-"] [class*="lazyImg"],
+[class*="ByThreeGrid-"] [class*="lazyImg"] {
+  aspect-ratio: unset;
+  height: auto !important;
+  width: auto !important;
+  margin-left: 0px !important;
+}
+
+[class^="mediaAttachmentsContainer-"] [class*="messageAttachmentMediaMosaic-"] {
+  max-width: fit-content;
+}
+
+[class*="mediaAttachmentsContainer-"] {
+  border-radius: 0px;
+}
+
+[class*="OneGridSingle-"] {
+  border-radius: 3px;
+}
+
 /* rounded context menu */
 .menu-1QACrS, .colorDefault-CDqZdO { 
     border-radius: 15px; 
