@@ -1,7 +1,7 @@
 /* easier to see black emojis in dark mode */
 @import url("https://app.staticsave.com/asportnoy/emoji-border.css");
 
-/* undo the "mosaic" image layout */
+/* undo the "mosaic" image layout 
 [class*="ByOneGrid-"]:not([class*="OneGridSingle-"]),
 [class*="ByTwoGrid-"],
 [class*="ByThreeGrid-"] {
@@ -29,10 +29,10 @@
 
 [class*="OneGridSingle-"] {
   border-radius: 3px;
-}
+} */
 
 /* rounded context menu */
-.menu-1QACrS, .colorDefault-CDqZdO { 
+.menu-2TXYjN, .colorDefault-2_rLdz { 
     border-radius: 15px; 
 }
 
@@ -62,11 +62,6 @@
 
 .reaction-3vwAF2.reactionMe-1PwQAc:hover {
   background-color: var(--brand-experiment-40a);
-}
-
-/* show full about me */
-[class*="lineClamp2Plus-"] {
-    -webkit-line-clamp: unset !important;
 }
 
 /* rainbow titlebar */
